@@ -62,7 +62,7 @@ input:not([type="checkbox"]) {
 
 .checkbox-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 14px;
   margin-bottom: 15px;
   width: 100%;
@@ -100,7 +100,7 @@ input:not([type="checkbox"]) {
   color: #141c2c;
 }
 
-.btn img {
+.btn-ghost img {
   margin-right: 5px;
   width: 20px;
 }

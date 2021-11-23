@@ -48,7 +48,7 @@ body {
 .search-area .search form input {
   background-color: transparent;
   border-left: none;
-  border-color: #1d2545;
+  border-color: black;
   padding: 10px;
   font-size: 17px;
   color: #e2e2e2;
@@ -59,7 +59,7 @@ body {
 .search-area .search form button {
   background-color: transparent;
   border-right: none;
-  border-color: #1d2545;
+  border-color: black;
   float: right;
   width: 20%;
   padding: 10px;
@@ -75,6 +75,7 @@ body {
   border-color: #1d2545;
   font-size: 17px;
   cursor: pointer;
+  float: left;
 }
 
 table {
@@ -109,15 +110,15 @@ table tbody tr td:last-of-type {
   text-align: center;
 }
 
-table tbody tr.priority-200 td:first-of-type {
+table tr.priority-200 td:first-of-type {
   border-left: 5px solid #9c7c64;
 }
 
-table tbody tr.priority-300 td:first-of-type {
+table tr.priority-300 td:first-of-type {
   border-left: 5px solid #5c8cdc;
 }
 
-table tbody tr.priority-600 td:first-of-type {
+table tr.priority-600 td:first-of-type {
   border-left: 5px solid #40c587;
 }
 
@@ -164,6 +165,8 @@ table tbody tr:hover .delete {
   color: #fff;
   border: none;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
 
 @media (max-width: 768px) {
